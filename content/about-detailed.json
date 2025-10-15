@@ -1,0 +1,117 @@
+{
+  "intro": {
+    "title": "About Me",
+    "description": "Bilingual Customer Support Engineer and Frontend Developer with over 5 years of experience supporting web users, troubleshooting complex application issues, and designing intuitive digital interfaces. Proficient in React, Next.js, Vercel deployment, and frontend performance optimization, with strong communication and documentation skills. I bridge the gap between customers and engineering — ensuring every technical challenge becomes an opportunity for innovation, growth, and better developer experience."
+  },
+  "experience": [
+    {
+      "role": "Technical Support Engineer",
+      "company": "Strikingly",
+      "location": "Remote (US)",
+      "period": "May 2022 – Nov 2023",
+      "achievements": [
+        "Delivered full-spectrum technical support for **1000+ users** via live chat and email, resolving issues related to hosting, domains, SSL, and site deployment.",
+        "Collaborated with engineering teams to reproduce, document, and fix frontend issues in production environments.",
+        "Authored **50+ knowledge base articles**, product documentation, and UI translations (EN ↔ FR).",
+        "Introduced structured incident response workflows that reduced ticket resolution times by **15%**."
+      ]
+    },
+    {
+      "role": "Frontend Designer & Brand Writer",
+      "company": "FuturAfric",
+      "location": "Abidjan, Côte d'Ivoire",
+      "period": "Nov 2024 – Oct 2025",
+      "achievements": [
+        "Designed UI/UX layouts, graphics, and landing pages aligned with brand identity.",
+        "Collaborated on web and mobile design projects using Figma and Next.js-based components.",
+        "Authored and edited digital publication articles for the company's magazine and online platform."
+      ]
+    },
+    {
+      "role": "French Service Desk Analyst (Intern)",
+      "company": "Tata Consultancy Services (TCS)",
+      "location": "Remote",
+      "period": "Jul 2022 – Oct 2022",
+      "achievements": [
+        "Supported enterprise users in French-speaking regions, managing IT tickets and troubleshooting workflows.",
+        "Escalated technical incidents and tracked resolutions in collaboration with engineering supervisors."
+      ]
+    },
+    {
+      "role": "Frontend Intern (Web Development)",
+      "company": "ThoughtWorks",
+      "location": "Bengaluru, India",
+      "period": "Sep 2019 – Dec 2019",
+      "achievements": [
+        "Built and tested UI components using HTML, CSS, and JavaScript.",
+        "Participated in Agile sprints focused on accessibility and frontend performance improvements."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Computer Science, Coding, and Design",
+    "school": "Indian School of Business & Computing (ISBC)",
+    "location": "India",
+    "period": "2016 – 2020",
+    "grade": "Grade: A"
+  },
+  "contact": {
+    "email": "douon2010@gmail.com",
+    "phones": ["(+225) 0788233647", "(+225) 0161371787"],
+    "location": "Abidjan, Côte d'Ivoire",
+    "availability": "Available for Remote Work",
+    "languages": {
+      "english": "Professional",
+      "french": "Native"
+    },
+    "links": {
+      "portfolio": "boris-douon-portfolio.netlify.app",
+      "linkedin": "linkedin.com/in/boris-douon"
+    }
+  },
+  "skills": {
+    "frontendDevelopment": [
+      "React",
+      "Next.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS"
+    ],
+    "deploymentCloud": [
+      "Vercel",
+      "Netlify",
+      "DNS",
+      "Hosting",
+      "Serverless Functions"
+    ],
+    "supportCollaboration": [
+      "Zendesk",
+      "Ticketing Systems",
+      "Knowledge Base",
+      "Troubleshooting"
+    ],
+    "designBranding": [
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "documentation": [
+      "Markdown/MDX",
+      "Technical Writing",
+      "Translation (EN/FR)"
+    ],
+    "versionControl": [
+      "Git",
+      "GitHub",
+      "CI/CD familiarity"
+    ],
+    "softSkills": [
+      "Empathy",
+      "Analytical thinking",
+      "Communication",
+      "Adaptability"
+    ]
+  }
+}

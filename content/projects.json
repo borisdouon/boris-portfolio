@@ -1,0 +1,150 @@
+{
+  "projects": [
+    {
+      "id": "vercel-support-dashboard",
+      "title": "Vercel Support Dashboard Clone",
+      "slug": "vercel-support-dashboard",
+      "client": "Personal Project",
+      "year": 2025,
+      "category": "Full-Stack Dashboard",
+      "role": "Full-Stack Developer",
+      "duration": "2 months",
+      "featured": true,
+      "thumbnail": "/images/projects/vercel-dashboard/cover.png",
+      "description": "A simplified internal Vercel Support Engineer Tool — a full-stack dashboard that mimics how support engineers diagnose and resolve deployment issues for customers. Features real-time ticket management, threaded messaging, admin panel, and analytics.",
+      "stack": ["Next.js", "Supabase", "Tailwind CSS", "TypeScript", "Framer Motion", "PostgreSQL", "Real-time"],
+      "kpis": ["Real-time Updates", "Admin Dashboard", "Threaded Messaging"],
+      "links": {
+        "live": "http://localhost:3000",
+        "github": "https://github.com/borisdouon/vercel-support-dashboard-clone",
+        "case_study": "/work/vercel-support-dashboard"
+      }
+    },
+    {
+      "id": "nextjs-deployment-troubleshooter",
+      "title": "Next.js Deployment Troubleshooter",
+      "slug": "nextjs-deployment-troubleshooter",
+      "client": "Open Source",
+      "year": 2025,
+      "category": "Developer Tool",
+      "role": "Full-Stack Developer",
+      "duration": "1 month",
+      "featured": true,
+      "thumbnail": "/images/projects/nextjs-troubleshooter/cover.png",
+      "description": "A standalone web tool that automatically checks a user's project configuration for common Vercel/Next.js deployment issues and provides actionable solutions. Built with Next.js, Node.js, and Vercel APIs integration.",
+      "stack": ["Next.js", "Node.js", "Vercel API", "TypeScript", "Open Source"],
+      "kpis": ["Automatic Diagnostics", "One-Click Fixes", "Open Source"],
+      "links": {
+        "github": "https://github.com/borisdouon/nextjs-deployment-troubleshooter",
+        "case_study": "/work/nextjs-deployment-troubleshooter"
+      }
+    },
+    {
+      "id": "futurafric-portfolio",
+      "title": "FUTURAFRIC PORTFOLIO",
+      "client": "FuturAfric",
+      "year": 2024,
+      "category": "Portfolio",
+      "role": "Web & Graphic Designer",
+      "duration": "Ongoing",
+      "featured": true,
+      "thumbnail": "/images/projects/futurafric-thumb.jpg",
+      "description": "A diversified portfolio encompassing graphic design, magazine publishing, UX/UI projects, and product campaigns.",
+      "stack": ["Adobe Creative Suite", "Figma", "InDesign", "Photoshop", "Illustrator"],
+      "kpis": ["Magazine Publishing", "Brand Campaigns", "UX/UI Design"],
+      "links": {
+        "live": "https://futurafric.com",
+        "case_study": "/work/futurafric-portfolio"
+      }
+    },
+    {
+      "id": "dlb-wordpress-redesign",
+      "title": "DLB Creative Agency Redesign",
+      "client": "DLB Creative Agency",
+      "year": 2021,
+      "category": "WordPress",
+      "role": "Web Developer",
+      "duration": "3 months",
+      "featured": true,
+      "thumbnail": "/images/projects/dlb-thumb.jpg",
+      "description": "WordPress redesign that elevated brand recognition by 15% and improved user experience",
+      "stack": ["WordPress", "PHP", "JavaScript", "SCSS", "Adobe Creative Suite"],
+      "kpis": ["+15% brand recognition", "+25% organic traffic", "50% faster page speed"],
+      "links": {
+        "live": "https://dlbcreative.com",
+        "case_study": "/work/dlb-wordpress-redesign"
+      }
+    },
+    {
+      "id": "strikingly-support-excellence",
+      "title": "Strikingly Support Excellence",
+      "client": "Strikingly",
+      "year": 2020,
+      "category": "Web Apps",
+      "role": "Technical Support Specialist",
+      "duration": "12 months",
+      "featured": true,
+      "thumbnail": "/images/projects/strikingly-thumb.jpg",
+      "description": "Achieved 95% customer satisfaction through exceptional technical support and user guidance",
+      "stack": ["JavaScript", "CSS", "HTML", "Customer Support Tools"],
+      "kpis": ["95% customer satisfaction", "30% faster resolution time", "200+ happy customers"],
+      "links": {
+        "live": "https://strikingly.com",
+        "case_study": "/work/strikingly-support-excellence"
+      }
+    },
+    {
+      "id": "component-library-system",
+      "title": "Reusable Component Library",
+      "client": "Personal Project",
+      "year": 2023,
+      "category": "UI Components",
+      "role": "Frontend Developer",
+      "duration": "2 months",
+      "featured": false,
+      "thumbnail": "/images/projects/components-thumb.jpg",
+      "description": "Built a comprehensive React component library with TypeScript and Storybook",
+      "stack": ["React", "TypeScript", "Storybook", "Tailwind CSS", "Radix UI"],
+      "kpis": ["50+ reusable components", "100% TypeScript coverage", "Accessible by design"],
+      "links": {
+        "github": "https://github.com/borisdouon/component-library",
+        "case_study": "/work/component-library-system"
+      }
+    },
+    {
+      "id": "brand-identity-collection",
+      "title": "Brand Identity Collection",
+      "client": "Various Clients",
+      "year": 2023,
+      "category": "Branding",
+      "role": "Brand Designer",
+      "duration": "Ongoing",
+      "featured": false,
+      "thumbnail": "/images/projects/branding-thumb.jpg",
+      "description": "Collection of brand identities showcasing typography, color systems, and visual consistency",
+      "stack": ["Adobe Illustrator", "Adobe Photoshop", "Figma", "Typography"],
+      "kpis": ["10+ brand identities", "Consistent visual systems", "Client satisfaction"],
+      "links": {
+        "behance": "https://behance.net/borisdouon",
+        "case_study": "/work/brand-identity-collection"
+      }
+    },
+    {
+      "id": "ecommerce-platform",
+      "title": "E-commerce Platform",
+      "client": "Tech Startup",
+      "year": 2023,
+      "category": "Web Apps",
+      "role": "Full-Stack Developer",
+      "duration": "6 months",
+      "featured": false,
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "description": "Built a modern e-commerce platform with advanced filtering and payment integration",
+      "stack": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
+      "kpis": ["Secure payment processing", "Advanced product filtering", "Mobile-first design"],
+      "links": {
+        "case_study": "/work/ecommerce-platform"
+      }
+    }
+  ]
+}

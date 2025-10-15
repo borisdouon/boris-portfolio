@@ -1,0 +1,192 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "work": "Travaux",
+    "about": "À propos",
+    "contact": "Contact",
+    "system": "Système"
+  },
+  "common": {
+    "viewProject": "Voir le projet",
+    "downloadResume": "Télécharger CV",
+    "scheduleCall": "Planifier un appel",
+    "emailMe": "M'envoyer un email",
+    "copyIntro": "Copier l'intro",
+    "recruiterMode": "Mode Recruteur",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Bonjour, je suis",
+      "name": "Boris Douon",
+      "title": "Ingénieur Support Client | Développeur Frontend",
+      "techStack": "React & Next.js",
+      "subtitle": "Je construis des systèmes qui travaillent pour vous",
+      "description": "Plateformes IA, SaaS, outils d'automatisation, et plus",
+      "languages": "Bilingue : Anglais & Français",
+      "cta": "Voir mes travaux",
+      "availability": "Disponible pour de nouveaux projets"
+    },
+    "recruiterHighlights": {
+      "title": "Pourquoi embaucher Boris ?",
+      "highlights": [
+        "5+ années d'expérience professionnelle en développement",
+        "Résultats prouvés : +20% d'engagement, +15% de reconnaissance de marque",
+        "Expert de l'écosystème React moderne et des systèmes de design",
+        "Bilingue : Anglais et Français",
+        "95% de satisfaction client",
+        "Disponible pour un démarrage immédiat"
+      ]
+    },
+    "typographyPlayground": {
+      "title": "Terrain de jeu typographique",
+      "controls": {
+        "fontSize": "Taille de police",
+        "fontWeight": "Graisse de police",
+        "letterSpacing": "Espacement des lettres",
+        "lineHeight": "Hauteur de ligne"
+      },
+      "sampleText": "Portez ce vieux whisky au juge blond qui fume"
+    }
+  },
+  "work": {
+    "title": "Travaux sélectionnés",
+    "subtitle": "Une collection de projets présentant mon expertise en développement web et design",
+    "filters": {
+      "all": "Tous les projets",
+      "webApps": "Applications Web",
+      "wordpress": "WordPress",
+      "branding": "Branding",
+      "uiComponents": "Composants UI"
+    },
+    "projectCard": {
+      "role": "Rôle",
+      "year": "Année",
+      "stack": "Stack Technique",
+      "viewCase": "Voir l'étude de cas"
+    },
+    "featured_projects": {
+      "vercel_support_dashboard": {
+        "title": "Clone du tableau de support Vercel",
+        "description": "Une reproduction fidèle du tableau de support interne de Vercel avec gestion des tickets en temps réel, développée avec Next.js et Supabase.",
+        "badge": "En vedette"
+      },
+      "nextjs_deployment_troubleshooter": {
+        "title": "Dépanneur de déploiement Next.js",
+        "description": "Un outil open source qui vérifie les journaux, les variables et les configurations pour résoudre automatiquement les échecs de déploiement Next.js.",
+        "badge": "Open Source"
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Passionné par la création d'expériences numériques qui font la différence",
+    "sections": {
+      "bio": "Biographie",
+      "values": "Valeurs",
+      "process": "Processus",
+      "timeline": "Chronologie",
+      "toolchain": "Outils",
+      "workExperience": "Expérience professionnelle",
+      "education": "Formation",
+      "contact": "Contact",
+      "skills": "Compétences"
+    },
+    "processSteps": {
+      "discovery": "Découverte",
+      "strategy": "Stratégie",
+      "design": "Design",
+      "development": "Développement",
+      "optimization": "Optimisation"
+    },
+    "contact": {
+      "downloadCV": "Télécharger le CV",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "availability": "Disponible pour le travail à distance mondial",
+      "languages": "Langues"
+    },
+    "skillCategories": {
+      "webDevelopment": "Développement Web",
+      "frameworksTechnologies": "Frameworks et Technologies",
+      "graphicDesign": "Design Graphique",
+      "tools": "Outils",
+      "collaboration": "Collaboration"
+    }
+  },
+  "contact": {
+    "title": "Travaillons ensemble",
+    "subtitle": "Prêt à donner vie à vos idées ? Discutons de votre projet",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi. Veuillez réessayer."
+    },
+    "directContact": {
+      "title": "Contact direct",
+      "email": "M'envoyer un email",
+      "whatsapp": "WhatsApp",
+      "calendly": "Planifier un appel"
+    },
+    "introBlurb": "Boris est un développeur web et designer talentueux avec 5+ années d'expérience dans la création d'expériences numériques engageantes. Il se spécialise en React, Next.js et systèmes de design modernes, avec un historique prouvé d'amélioration de l'engagement utilisateur et de la reconnaissance de marque."
+  },
+  "system": {
+    "title": "Système de design",
+    "subtitle": "Terrain de jeu interactif présentant les tokens de design et composants",
+    "sections": {
+      "tokens": "Tokens de design",
+      "components": "Composants",
+      "playground": "Terrain de jeu"
+    },
+    "tokens": {
+      "colors": "Couleurs",
+      "typography": "Typographie",
+      "spacing": "Espacement",
+      "shadows": "Ombres",
+      "radius": "Rayon de bordure"
+    },
+    "components": {
+      "buttons": "Boutons",
+      "cards": "Cartes",
+      "forms": "Formulaires",
+      "navigation": "Navigation"
+    }
+  },
+  "caseStudy": {
+    "tabs": {
+      "overview": "Aperçu",
+      "design": "Design",
+      "code": "Code",
+      "accessibility": "Accessibilité"
+    },
+    "sections": {
+      "challenge": "Le défi",
+      "approach": "Approche",
+      "solution": "Solution",
+      "results": "Résultats",
+      "impact": "Impact",
+      "nextSteps": "Ce que j'améliorerais ensuite"
+    },
+    "metadata": {
+      "role": "Rôle",
+      "client": "Client",
+      "year": "Année",
+      "duration": "Durée",
+      "stack": "Technologies",
+      "kpis": "Résultats clés"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Boris Douon. Tous droits réservés.",
+    "madeWith": "Fait avec ❤️ en utilisant Next.js & TypeScript"
+  }
+}
