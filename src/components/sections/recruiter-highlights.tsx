@@ -62,7 +62,7 @@ export function RecruiterHighlights() {
             {t("title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Key metrics and achievements that demonstrate proven impact
+            Mission oriented with a passion & disciplined to build intelligent systems.
           </p>
         </motion.div>
 

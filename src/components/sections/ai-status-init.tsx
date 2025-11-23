@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react";
 export const STATUS_STEPS = [
   "Booting intelligent systems…",
   "Loading AI workflows & tools…",
-  "Syncing React / Next.js engines…",
+  "Loading AI workflows & tools…",
   "Portfolio model v2025 online.",
 ] as const;
 
@@ -305,7 +305,7 @@ export function FloatingFirstStatus() {
   }, [currentStep, prefersReducedMotion, firstMessage, thirdMessage, displayedTexts]);
 
   return (
-    <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20 flex flex-col gap-2">
+    <div className="absolute top-4 left-[5%] sm:top-6 z-20 flex flex-col gap-2">
       {/* First line */}
       <div className="flex items-center gap-2">
         <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] flex-shrink-0" />
@@ -339,7 +339,7 @@ export function FloatingFirstStatus() {
   );
 }
 
-// Floating second status line component for background (bottom-right)
+// Floating second status line component for background (bottom-left, aligned with console)
 export function FloatingSecondStatus() {
   const [displayedText, setDisplayedText] = useState("");
   const [isCompleted, setIsCompleted] = useState(false);
@@ -411,7 +411,7 @@ export function FloatingSecondStatus() {
   }, [prefersReducedMotion, secondMessage]);
 
   return (
-    <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 z-20">
+    <div className="absolute bottom-[10%] right-4 sm:right-6 z-20">
       <div className="flex items-center gap-2">
         {/* Status indicator dot */}
         <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] flex-shrink-0" />

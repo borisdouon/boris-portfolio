@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { useAnalytics } from "@/components/analytics/analytics";
-import { FloatingFirstStatus, FloatingSecondStatus } from "@/components/sections/ai-status-init";
+import { FloatingFirstStatus } from "@/components/sections/ai-status-init";
 import MiniDebugConsole from "@/components/MiniDebugConsole";
 
 export default function Hero() {
@@ -35,7 +35,6 @@ export default function Hero() {
         <div className="absolute inset-0 opacity-30 dark:opacity-20 bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.08),transparent_55%)]" />
         {/* Animated status indicators */}
         <FloatingFirstStatus />
-        <FloatingSecondStatus />
       </div>
 
       <div className="relative z-10 w-full max-w-3xl text-center space-y-8">
