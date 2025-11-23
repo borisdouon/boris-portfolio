@@ -1,76 +1,82 @@
 {
   "name": "Boris Douon",
-  "title": "Customer Support Engineer | Frontend Developer (React & Next.js)",
-  "subtitle": "Technical Support • React & Next.js • Vercel Deployment • UI/UX Design",
-  "bio": "Bilingual Customer Support Engineer and Frontend Developer with over 5 years of experience supporting web users, troubleshooting complex application issues, and designing intuitive digital interfaces. Proficient in React, Next.js, Vercel deployment, and frontend performance optimization, with strong communication and documentation skills. I bridge the gap between customers and engineering — ensuring every technical challenge becomes an opportunity for innovation, growth, and better developer experience.",
+  "title": "AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer",
+  "subtitle": "Building Intelligent Systems • AI Workflows • Software Architecture • Creative Tech Design",
+  "bio": "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Currently building high-performance digital systems at ADGroupe using modern IDEs (Cursor, Windsurf) to create scalable web applications, robust APIs, and premium UI experiences. Expert in software architecture, automation pipelines, and AI-driven product design. Bilingual professional with 6+ years of experience bridging the gap between intelligent systems and creative technology.",
   "location": "Abidjan, Côte d'Ivoire",
   "availability": "Available for Remote Work",
-  "experience": "5+ years",
+  "experience": "6+ years",
   "values": [
-    "User-centered design",
-    "Performance optimization",
-    "Accessibility first",
-    "Clean, maintainable code"
+    "AI-first development",
+    "Intelligent automation",
+    "Clean architecture",
+    "Creative problem-solving"
   ],
   "process": [
     {
       "step": "Discovery",
-      "description": "Understanding your goals, users, and constraints"
+      "description": "Understanding goals, constraints, and AI opportunities"
     },
     {
-      "step": "Strategy",
-      "description": "Defining the approach and technical architecture"
-    },
-    {
-      "step": "Design",
-      "description": "Creating intuitive interfaces and visual systems"
+      "step": "Architecture",
+      "description": "Designing intelligent systems and automation pipelines"
     },
     {
       "step": "Development",
-      "description": "Building with modern technologies and best practices"
+      "description": "Building with Cursor, Windsurf, and modern AI workflows"
+    },
+    {
+      "step": "Integration",
+      "description": "Connecting AI systems with creative tech solutions"
     },
     {
       "step": "Optimization",
-      "description": "Testing, refining, and measuring impact"
+      "description": "Refining intelligent systems for peak performance"
     }
   ],
   "timeline": [
     {
-      "year": "2019",
-      "company": "ThoughtWorks",
-      "role": "Frontend Intern (Web Development)",
-      "description": "Built and tested UI components using HTML, CSS, and JavaScript in Agile sprints"
-    },
-    {
-      "year": "2022",
-      "company": "Strikingly (Remote, US)",
-      "role": "Technical Support Engineer",
-      "description": "Delivered full-spectrum technical support for 1000+ users, resolving hosting, domain, SSL, and deployment issues"
-    },
-    {
-      "year": "2022",
-      "company": "Tata Consultancy Services (TCS)",
-      "role": "French Service Desk Analyst (Intern)",
-      "description": "Supported enterprise users in French-speaking regions, managing IT tickets and troubleshooting workflows"
+      "year": "2025-Present",
+      "company": "ADGroupe",
+      "role": "Software Engineer",
+      "description": "Building high-performance digital systems across the stack. Engineering scalable web applications and internal platforms. Implementing automation workflows powered by modern IDEs (Cursor, Windsurf). Delivering clean architectures, robust APIs, and premium UI experiences."
     },
     {
       "year": "2024-2025",
       "company": "FuturAfric",
-      "role": "Frontend Designer & Brand Writer",
-      "description": "Designed UI/UX layouts, graphics, and landing pages aligned with brand identity"
+      "role": "Writer & Designer",
+      "description": "Supported branding, product experience, and editorial communication. Designed visual identities, brand assets, and digital campaigns. Delivered UX/UI concepts for AI-driven products and client platforms."
     },
     {
-      "year": "2025-Present",
-      "company": "Freelance",
-      "role": "Customer Support Engineer & Frontend Developer",
-      "description": "Building full-stack solutions and providing technical support for web applications"
+      "year": "2024",
+      "company": "Mastercard (Forage)",
+      "role": "Cybersecurity Analyst",
+      "description": "Participated in Mastercard's Security Awareness Program. Identified phishing and internal security risks. Assessed security gaps and proposed targeted training."
+    },
+    {
+      "year": "2022-2023",
+      "company": "Strikingly",
+      "role": "Technical Support Engineer",
+      "description": "Provided advanced technical support for global customers. Troubleshot website, hosting, and domain issues (NoCode + Web). Escalated complex problems to engineering teams. Translated UI/UX content EN ↔ FR for product localization."
+    },
+    {
+      "year": "2022",
+      "company": "Tata Consultancy Services (TCS)",
+      "role": "Service Desk Analyst",
+      "description": "Provided L1/L2 IT support in French for enterprise clients."
+    },
+    {
+      "year": "2019",
+      "company": "ThoughtWorks",
+      "role": "Web Development Intern",
+      "description": "Developed UI components using HTML, CSS, JavaScript in Agile sprints."
     }
   ],
   "toolchain": {
-    "frontend": ["React", "Next.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
-    "deployment": ["Vercel", "Netlify", "DNS", "Hosting", "Serverless Functions"],
-    "support": ["Zendesk", "Ticketing Systems", "Knowledge Base", "Troubleshooting"],
-    "design": ["Figma", "Adobe XD", "Photoshop", "Illustrator"],
-    "tools": ["Git", "GitHub", "Markdown/MDX", "CI/CD"]
+    "engineering": ["Full-Stack Development", "Intelligent Systems", "AI Workflows", "Software Architecture"],
+    "development": ["React", "Next.js", "TypeScript", "Node.js", "API Design", "Automation Pipelines"],
+    "ai_tools": ["Cursor", "Windsurf", "VS Code", "AI-Assisted Development"],
+    "design": ["Figma", "UX/UI", "Brand Identity", "Product Design"],
+    "tools": ["Git", "GitHub", "CI/CD", "Docker", "PostgreSQL"]
   }
 }

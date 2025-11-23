@@ -23,22 +23,22 @@
     "hero": {
       "greeting": "Hello, I'm",
       "name": "Boris Douon",
-      "title": "Customer Support Engineer | Frontend Developer",
-      "techStack": "React & Next.js",
-      "subtitle": "I build systems that do the work for you",
-      "description": "AI platforms, SaaS, automation tools, and more",
+      "title": "AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer",
+      "techStack": "Cursor • Windsurf • AI Workflows • Intelligent Systems",
+      "subtitle": "Building Intelligent Systems That Think",
+      "description": "AI-powered automation • Software Architecture • Full-Stack Development • Creative Tech Design",
       "languages": "Bilingual: English & French",
-      "cta": "View My Work",
-      "availability": "Available for new projects"
+      "cta": "Explore My Work",
+      "availability": "Available for new opportunities"
     },
     "recruiterHighlights": {
       "title": "Why Hire Boris?",
       "highlights": [
-        "5+ years of professional development experience",
-        "Proven track record: +20% engagement, +15% brand recognition",
-        "Expert in modern React ecosystem and design systems",
+        "6+ years of professional software engineering experience",
+        "AI-first development approach with Cursor & Windsurf expertise",
+        "Expert in intelligent systems, automation pipelines, and software architecture",
         "Bilingual: English & French",
-        "95% customer satisfaction rating",
+        "Currently building high-performance systems at ADGroupe",
         "Available for immediate start"
       ]
     },
@@ -137,7 +137,7 @@
       "whatsapp": "WhatsApp",
       "calendly": "Schedule a Call"
     },
-    "introBlurb": "Boris is a skilled web developer and designer with 5+ years of experience creating engaging digital experiences. He specializes in React, Next.js, and modern design systems, with a proven track record of improving user engagement and brand recognition."
+    "introBlurb": "Boris is an AI & Software Engineer specializing in intelligent systems, automation, and full-stack development. Currently at ADGroupe, he builds high-performance digital systems using modern AI tools like Cursor and Windsurf. With 6+ years of experience, he combines software architecture expertise with creative tech design."
   },
   "system": {
     "title": "Design System",

@@ -33,6 +33,12 @@
   --silver: 220 9% 46%;
   --silver-foreground: 220 9% 95%;
   
+  /* Systems modal tokens */
+  --system-modal-bg: rgba(248, 250, 252, 0.97);
+  --system-modal-glow: rgba(148, 163, 184, 0.35);
+  --system-holo-bg: rgba(248, 250, 252, 0.9);
+  --system-holo-border: rgba(148, 163, 184, 0.6);
+
   /* Spacing tokens */
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
@@ -73,6 +79,11 @@
   --chart-3: 30 80% 55%;
   --chart-4: 280 65% 60%;
   --chart-5: 340 75% 55%;
+
+  --system-modal-bg: rgba(5, 5, 8, 0.96);
+  --system-modal-glow: rgba(56, 189, 248, 0.25);
+  --system-holo-bg: rgba(10, 12, 20, 0.92);
+  --system-holo-border: rgba(59, 130, 246, 0.35);
 }
 
 * {
@@ -132,4 +143,98 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Background Particles Component */
+/* The BackgroundParticles component uses inline styles and Tailwind classes:
+   - fixed positioning (position: fixed)
+   - full viewport coverage (inset-0)
+   - behind all content (z-index: -1)
+   - pointer events disabled (pointer-events: none)
+   These styles are applied directly in the component for optimal performance.
+*/
+
+/* Custom Cursor */
+/* Hide default cursor across the entire app */
+* {
+  cursor: none !important;
+}
+
+/* Optional: Show default cursor on specific elements if needed */
+/* Uncomment if you want default cursor on certain elements */
+/*
+input[type="text"],
+input[type="email"],
+textarea {
+  cursor: text !important;
+}
+*/
+
+/* Status pulse animation for Systems Dashboard */
+@keyframes soft-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* Strong status pulse for Systems Dashboard */
+@keyframes status-pulse-strong {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  60% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Hologram scanlines effect */
+.hologram-scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(148, 163, 184, 0.18),
+    rgba(148, 163, 184, 0.18) 1px,
+    transparent 3px,
+    transparent 4px
+  );
+}
+
+/* Custom scrollbar utilities */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+}
+
+.scrollbar-thumb-border\/50::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--border) / 0.5);
+}
+
+.scrollbar-thumb-border\/50::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--border) / 0.7);
 }

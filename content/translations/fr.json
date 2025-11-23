@@ -23,22 +23,22 @@
     "hero": {
       "greeting": "Bonjour, je suis",
       "name": "Boris Douon",
-      "title": "Ingénieur Support Client | Développeur Frontend",
-      "techStack": "React & Next.js",
-      "subtitle": "Je construis des systèmes qui travaillent pour vous",
-      "description": "Plateformes IA, SaaS, outils d'automatisation, et plus",
+      "title": "Ingénieur IA & Logiciel | Systèmes Intelligents | Full-Stack | Designer Tech Créatif",
+      "techStack": "Cursor • Windsurf • Flux de Travail IA • Systèmes Intelligents",
+      "subtitle": "Construire des Systèmes Intelligents Qui Pensent",
+      "description": "Automatisation alimentée par l'IA • Architecture Logicielle • Développement Full-Stack • Design Tech Créatif",
       "languages": "Bilingue : Anglais & Français",
-      "cta": "Voir mes travaux",
-      "availability": "Disponible pour de nouveaux projets"
+      "cta": "Explorer mes travaux",
+      "availability": "Disponible pour de nouvelles opportunités"
     },
     "recruiterHighlights": {
       "title": "Pourquoi embaucher Boris ?",
       "highlights": [
-        "5+ années d'expérience professionnelle en développement",
-        "Résultats prouvés : +20% d'engagement, +15% de reconnaissance de marque",
-        "Expert de l'écosystème React moderne et des systèmes de design",
+        "6+ années d'expérience professionnelle en ingénierie logicielle",
+        "Approche de développement axée sur l'IA avec expertise Cursor & Windsurf",
+        "Expert en systèmes intelligents, pipelines d'automatisation et architecture logicielle",
         "Bilingue : Anglais et Français",
-        "95% de satisfaction client",
+        "Actuellement en train de construire des systèmes haute performance chez ADGroupe",
         "Disponible pour un démarrage immédiat"
       ]
     },
@@ -137,7 +137,7 @@
       "whatsapp": "WhatsApp",
       "calendly": "Planifier un appel"
     },
-    "introBlurb": "Boris est un développeur web et designer talentueux avec 5+ années d'expérience dans la création d'expériences numériques engageantes. Il se spécialise en React, Next.js et systèmes de design modernes, avec un historique prouvé d'amélioration de l'engagement utilisateur et de la reconnaissance de marque."
+    "introBlurb": "Boris est un Ingénieur IA & Logiciel spécialisé dans les systèmes intelligents, l'automatisation et le développement full-stack. Actuellement chez ADGroupe, il construit des systèmes numériques haute performance en utilisant des outils IA modernes comme Cursor et Windsurf. Avec 6+ années d'expérience, il combine l'expertise en architecture logicielle avec le design tech créatif."
   },
   "system": {
     "title": "Système de design",

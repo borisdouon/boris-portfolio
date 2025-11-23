@@ -1,0 +1,112 @@
+ Boris Douon
+
+AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer
+Abidjan, Côte d'Ivoire • 500+ Connections
+
+💼 Experience
+Software Engineer — ADGroupe
+
+Oct 2025 – Present | Abidjan (Hybrid)
+Building high-performance digital systems across the stack.
+
+Engineering scalable web applications and internal platforms.
+
+Implementing automation workflows powered by modern IDEs (Cursor, Windsurf).
+
+Delivering clean architectures, robust APIs, and premium UI experiences.
+Core Skills: Software Architecture · Full-Stack Development · System Design
+
+Writer & Designer — FuturAfric
+
+Nov 2024 – Oct 2025 | Abidjan (On-site)
+Supported branding, product experience, and editorial communication.
+
+Designed visual identities, brand assets, and digital campaigns.
+
+Delivered UX/UI concepts for AI-driven products and client platforms.
+Core Skills: Branding · Visual Design · UI/UX
+
+Cybersecurity Analyst — Mastercard (Forage)
+
+Jan 2024 – Feb 2024 | Remote
+Participated in Mastercard’s Security Awareness Program.
+
+Identified phishing and internal security risks.
+
+Assessed security gaps and proposed targeted training.
+Core Skills: Cybersecurity · Threat Awareness · Security Strategy
+
+Technical Support Engineer — Strikingly
+
+May 2022 – Nov 2023 | Remote
+Provided advanced technical support for global customers.
+
+Troubleshot website, hosting, and domain issues (NoCode + Web).
+
+Escalated complex problems to engineering teams.
+
+Translated UI/UX content EN ↔ FR for product localization.
+
+Contributed to QA, product testing, and internal documentation.
+Core Skills: Technical Support · Web Technologies · Customer Experience
+
+Service Desk Analyst — Tata Consultancy Services (TCS)
+
+Jul 2022 – Oct 2022
+Provided L1/L2 IT support in French for enterprise clients.
+
+Web Development Intern — Thoughtworks
+
+Sep 2019 – Dec 2019 | India
+Developed UI components using HTML, CSS, JavaScript.
+
+🎓 Education
+Indian School of Business & Computing (ISBC)
+
+BSc in Computer Engineering — Information Technology
+2016 – 2020 | Grade: A
+
+📜 Certifications
+
+Mastercard Cybersecurity Virtual Experience — Forage
+
+Certified Employment Support Specialist — Strikingly
+
+TCS Internship Certificate — Tata Consultancy Services
+
+💡 Technical Skills
+Engineering & Development
+
+Full-Stack Development
+
+Intelligent Systems · AI Workflows
+
+Software Architecture
+
+API Design · Automation Pipelines
+
+Cybersecurity
+
+Threat Detection
+
+Security Awareness
+
+Incident Analysis
+
+Design
+
+UX/UI
+
+Brand Identity
+
+Product Design
+
+Tools
+
+Cursor · Windsurf · VS Code · Git · Slack · Zendesk · Figma
+
+🌍 Languages
+
+French — Native
+
+English — Professional Proficiency

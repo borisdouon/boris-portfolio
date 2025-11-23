@@ -5,33 +5,31 @@ import { motion } from "framer-motion";
 import { TrendingUp, Award, Users, Clock, Globe, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { useRecruiterMode } from "@/contexts/recruiter-mode";
 
 const highlights = [
   {
     icon: TrendingUp,
-    metric: "+20%",
-    label: "User Engagement",
-    description: "Improved through UI optimization",
+    metric: "AI-First",
+    label: "Development Approach",
+    description: "Building intelligent systems with Cursor & Windsurf",
   },
   {
     icon: Award,
-    metric: "+15%",
-    label: "Brand Recognition",
-    description: "Via WordPress redesigns",
+    metric: "Full-Stack",
+    label: "Expertise",
+    description: "Software Architecture • APIs • Automation",
   },
   {
     icon: Users,
-    metric: "95%",
-    label: "Customer Satisfaction",
-    description: "Technical support excellence",
+    metric: "6+",
+    label: "Years Experience",
+    description: "Professional software engineering",
   },
   {
     icon: Clock,
-    metric: "5+",
-    label: "Years Experience",
-    description: "Professional development",
+    metric: "ADGroupe",
+    label: "Current Role",
+    description: "Software Engineer (Oct 2025 - Present)",
   },
   {
     icon: Globe,
@@ -41,18 +39,14 @@ const highlights = [
   },
   {
     icon: Zap,
-    metric: "React",
-    label: "Expert Level",
-    description: "Modern ecosystem mastery",
+    metric: "Intelligent",
+    label: "Systems",
+    description: "AI workflows & automation pipelines",
   },
 ];
 
 export function RecruiterHighlights() {
   const t = useTranslations("home.recruiterHighlights");
-  const tCommon = useTranslations("common");
-  const { isRecruiterMode } = useRecruiterMode();
-
-  if (!isRecruiterMode) return null;
 
   return (
     <section className="py-20 bg-muted/30">
@@ -101,34 +95,6 @@ export function RecruiterHighlights() {
           ))}
         </div>
 
-        {/* Quick Actions */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="bg-card rounded-2xl p-8 border border-border"
-        >
-          <div className="text-center mb-6">
-            <h3 className="text-xl font-semibold mb-2">Ready to Connect?</h3>
-            <p className="text-muted-foreground">
-              Let's discuss how I can contribute to your team's success
-            </p>
-          </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="gold" size="lg" className="flex-1 sm:flex-none">
-              {tCommon("scheduleCall")}
-            </Button>
-            <Button variant="outline" size="lg" className="flex-1 sm:flex-none">
-              {tCommon("downloadResume")}
-            </Button>
-            <Button variant="ghost" size="lg" className="flex-1 sm:flex-none">
-              {tCommon("emailMe")}
-            </Button>
-          </div>
-        </motion.div>
-
         {/* Skills Tags */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -139,7 +105,7 @@ export function RecruiterHighlights() {
         >
           <p className="text-sm text-muted-foreground mb-4">Core Technologies</p>
           <div className="flex flex-wrap justify-center gap-2">
-            {["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma", "WordPress", "Node.js"].map((skill) => (
+            {["Cursor", "Windsurf", "React", "Next.js", "TypeScript", "Node.js", "AI Workflows", "Software Architecture"].map((skill) => (
               <Badge key={skill} variant="secondary">
                 {skill}
               </Badge>

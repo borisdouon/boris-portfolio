@@ -3,6 +3,7 @@ import { Inter, Manrope } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { RecruiterModeProvider } from "@/contexts/recruiter-mode";
+import { CustomCursor } from "@/components/custom-cursor";
 import "./globals.css";
 
 const inter = Inter({
@@ -18,23 +19,23 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Boris Douon - Customer Support Engineer | Frontend Developer (React & Next.js)",
-  description: "Bilingual Customer Support Engineer and Frontend Developer with 5+ years of experience. Proficient in React, Next.js, Vercel deployment, and frontend performance optimization. Based in Abidjan, Côte d'Ivoire — Available for Remote Work.",
-  keywords: ["customer support engineer", "frontend developer", "React", "Next.js", "Vercel", "technical support", "UI/UX", "web development", "troubleshooting"],
+  title: "Boris Douon - AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer",
+  description: "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Currently building high-performance digital systems at ADGroupe using Cursor, Windsurf, and modern AI workflows. Based in Abidjan, Côte d'Ivoire — Available for Remote Work.",
+  keywords: ["AI engineer", "software engineer", "intelligent systems", "Cursor", "Windsurf", "full-stack developer", "AI workflows", "automation", "software architecture", "creative tech designer"],
   authors: [{ name: "Boris Douon" }],
   creator: "Boris Douon",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://boris-douon-portfolio.netlify.app",
-    title: "Boris Douon - Customer Support Engineer | Frontend Developer",
-    description: "Bilingual Customer Support Engineer and Frontend Developer with 5+ years of experience supporting web users and building intuitive digital interfaces.",
+    title: "Boris Douon - AI & Software Engineer | Intelligent Systems | Full-Stack",
+    description: "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Building high-performance digital systems using Cursor, Windsurf, and modern AI workflows.",
     siteName: "Boris Douon Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Boris Douon - Customer Support Engineer | Frontend Developer",
-    description: "Bilingual Customer Support Engineer and Frontend Developer with 5+ years of experience. React, Next.js, Vercel deployment specialist.",
+    title: "Boris Douon - AI & Software Engineer | Intelligent Systems | Full-Stack",
+    description: "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Cursor, Windsurf, and AI workflows expert.",
   },
   robots: {
     index: true,
@@ -56,6 +57,7 @@ export default async function RootLayout({
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <RecruiterModeProvider>
+            <CustomCursor />
             {children}
           </RecruiterModeProvider>
         </NextIntlClientProvider>

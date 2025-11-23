@@ -11,26 +11,27 @@ interface SEOProps {
 }
 
 const defaultMetadata = {
-  title: "Boris Douon - Full-Stack Developer & UI/UX Designer",
-  description: "Experienced Full-Stack Developer and UI/UX Designer specializing in React, Next.js, TypeScript, and modern web technologies. Based in Montreal, Canada.",
+  title: "Boris Douon - AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer",
+  description: "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Currently building high-performance digital systems at ADGroupe using Cursor, Windsurf, and modern AI workflows. Based in Abidjan, Côte d'Ivoire.",
   keywords: [
     "Boris Douon",
+    "AI Engineer",
+    "Software Engineer",
+    "Intelligent Systems",
+    "Cursor",
+    "Windsurf",
     "Full-Stack Developer",
-    "UI/UX Designer",
+    "AI Workflows",
+    "Automation",
+    "Software Architecture",
+    "Creative Tech Designer",
     "React Developer",
     "Next.js Developer",
     "TypeScript Developer",
-    "Frontend Developer",
-    "Backend Developer",
-    "Web Developer",
-    "Montreal Developer",
-    "Canada Developer",
-    "JavaScript Developer",
     "Node.js Developer",
     "Portfolio",
-    "Web Design",
-    "User Experience",
-    "User Interface"
+    "Abidjan Developer",
+    "Côte d'Ivoire Developer"
   ],
   image: "/og-image.jpg",
   url: "https://borisdouon.com",
@@ -119,39 +120,42 @@ export const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Boris Douon",
-    "jobTitle": "Full-Stack Developer & UI/UX Designer",
-    "description": "Experienced Full-Stack Developer and UI/UX Designer specializing in React, Next.js, TypeScript, and modern web technologies.",
+    "jobTitle": "AI & Software Engineer | Intelligent Systems | Full-Stack | Creative Tech Designer",
+    "description": "Software Engineer specializing in AI-powered systems, intelligent automation, and full-stack development. Building high-performance digital systems using Cursor, Windsurf, and modern AI workflows.",
     "url": "https://borisdouon.com",
     "image": "https://borisdouon.com/og-image.jpg",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Montreal",
-      "addressRegion": "QC",
-      "addressCountry": "CA"
+      "addressLocality": "Abidjan",
+      "addressRegion": "Lagunes",
+      "addressCountry": "CI"
     },
-    "email": "boris@borisdouon.com",
+    "email": "douon2010@gmail.com",
     "sameAs": [
       "https://github.com/borisdouon",
-      "https://linkedin.com/in/borisdouon",
-      "https://twitter.com/borisdouon"
+      "https://linkedin.com/in/boris-douon"
     ],
     "knowsAbout": [
+      "AI Engineering",
+      "Intelligent Systems",
+      "Cursor",
+      "Windsurf",
+      "Software Architecture",
+      "Automation Pipelines",
       "JavaScript",
       "TypeScript",
       "React",
       "Next.js",
       "Node.js",
-      "UI/UX Design",
-      "Web Development",
-      "Frontend Development",
-      "Backend Development"
+      "Full-Stack Development",
+      "Creative Tech Design"
     ]
   },
   website: {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Boris Douon Portfolio",
-    "description": "Portfolio website of Boris Douon, Full-Stack Developer and UI/UX Designer",
+    "description": "Portfolio website of Boris Douon, AI & Software Engineer specializing in Intelligent Systems and Full-Stack Development",
     "url": "https://borisdouon.com",
     "author": {
       "@type": "Person",
