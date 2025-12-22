@@ -143,7 +143,7 @@ export function CustomCursor() {
       style={{
         position: "fixed",
         pointerEvents: "none",
-        zIndex: 9999,
+        zIndex: 100000,
         transform: "translate3d(0, 0, 0)",
         transition: "transform 0.1s ease-out",
         willChange: "transform",

@@ -167,7 +167,7 @@ export function Navigation() {
                     {t(item.key)}
                   </Link>
                 ))}
-                
+
                 <div className="border-t border-border pt-4 mt-4">
                   <div className="flex items-center justify-between px-3 py-2">
                     <span className="text-sm text-muted-foreground">
@@ -178,7 +178,7 @@ export function Navigation() {
                       onCheckedChange={toggleRecruiterMode}
                     />
                   </div>
-                  
+
                   <div className="flex items-center space-x-2 px-3 py-2">
                     <Button
                       variant="ghost"
@@ -198,7 +198,7 @@ export function Navigation() {
                         </>
                       )}
                     </Button>
-                    
+
                     <Button variant="ghost" size="sm" className="flex-1">
                       <Globe className="h-4 w-4 mr-2" />
                       FR

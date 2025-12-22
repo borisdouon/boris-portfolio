@@ -5,7 +5,6 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { useAnalytics } from "@/components/analytics/analytics";
 import { FloatingFirstStatus } from "@/components/sections/ai-status-init";
-import MiniDebugConsole from "@/components/MiniDebugConsole";
 
 export default function Hero() {
   const prefersReducedMotion = useReducedMotion();
@@ -19,14 +18,14 @@ export default function Hero() {
   const haloAnimation = prefersReducedMotion
     ? { opacity: 0.4 }
     : {
-        scale: [0.95, 1.05, 0.95],
-        opacity: [0.25, 0.5, 0.25],
-        transition: {
-          duration: 9,
-          repeat: Infinity,
-          ease: "easeInOut" as const,
-        },
-      };
+      scale: [0.95, 1.05, 0.95],
+      opacity: [0.25, 0.5, 0.25],
+      transition: {
+        duration: 9,
+        repeat: Infinity,
+        ease: "easeInOut" as const,
+      },
+    };
 
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center px-4 py-24 overflow-hidden">
@@ -114,16 +113,6 @@ export default function Hero() {
             Download CV
           </Button>
         </motion.div>
-      </div>
-
-      {/* Debug console – desktop */}
-      <div className="hidden md:block absolute left-[5%] bottom-[10%] z-20 pointer-events-auto">
-        <MiniDebugConsole />
-      </div>
-
-      {/* Mobile placement */}
-      <div className="mt-10 w-full md:hidden flex justify-center pointer-events-auto">
-        <MiniDebugConsole />
       </div>
     </section>
   );

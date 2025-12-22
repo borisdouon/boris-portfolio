@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { RecruiterModeProvider } from "@/contexts/recruiter-mode";
 import { CustomCursor } from "@/components/custom-cursor";
+import MiniDebugConsole from "@/components/MiniDebugConsole";
 import "./globals.css";
 
 const inter = Inter({
@@ -59,6 +60,7 @@ export default async function RootLayout({
           <RecruiterModeProvider>
             <CustomCursor />
             {children}
+            <MiniDebugConsole />
           </RecruiterModeProvider>
         </NextIntlClientProvider>
       </body>
