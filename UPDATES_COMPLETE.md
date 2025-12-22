@@ -29,7 +29,7 @@ Bilingual: English & French
 
 **New Homepage Flow:**
 1. **Hero Section** - Boris Douon introduction
-2. **Recruiter Highlights** - Why hire Boris
+2. **Recruiter Highlights** - Work  With Boris
 3. **Featured Work** - Project showcase ⭐
 4. **Typography Playground** - Moved below Featured Work
 
