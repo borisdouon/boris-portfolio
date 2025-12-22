@@ -220,12 +220,12 @@ const ResumeDocumentRecruiter = () =>
     React.createElement(Page, { size: "A4", style: styles.page },
       React.createElement(View, { style: styles.header },
         React.createElement(Text, { style: styles.name }, "Boris Douon"),
-        React.createElement(Text, { style: styles.title }, "Full-Stack Developer & UI/UX Designer"),
+        React.createElement(Text, { style: styles.title }, "AI & Software Engineer | Intelligent Systems | Full-Stack"),
         React.createElement(View, { style: styles.contact },
-          React.createElement(Text, null, "boris@borisdouon.com"),
-          React.createElement(Text, null, "Montreal, Canada"),
-          React.createElement(Text, null, "5+ Years Experience"),
-          React.createElement(Text, null, "50+ Projects Delivered")
+          React.createElement(Text, null, "douon2010@gmail.com"),
+          React.createElement(Text, null, "Abidjan, Côte d'Ivoire"),
+          React.createElement(Text, null, "6+ Years Experience"),
+          React.createElement(Text, null, "Building Intelligent Systems at ADGroupe")
         )
       ),
 

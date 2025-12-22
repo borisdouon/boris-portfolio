@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
+import { BackgroundParticles } from "@/components/background-particles";
 import { AnalyticsProvider } from "@/components/analytics/analytics";
 import { PerformanceMonitor } from "@/components/analytics/performance-monitor";
 import { AccessibilityMonitor } from "@/components/accessibility/a11y-monitor";
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
       <AnalyticsProvider>
         <PerformanceMonitor />
         <AccessibilityMonitor />
+        <BackgroundParticles />
         <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-1">
