@@ -123,13 +123,21 @@
     "title": "Travaillons ensemble",
     "subtitle": "Prêt à donner vie à vos idées ? Discutons de votre projet",
     "form": {
+      "title": "Envoyer un message",
       "name": "Nom",
       "email": "Email",
+      "company": "Entreprise (Optionnel)",
+      "projectType": "Type de projet",
+      "budget": "Fourchette de budget",
+      "timeline": "Délai prévu",
       "message": "Message",
       "send": "Envoyer le message",
       "sending": "Envoi en cours...",
       "success": "Message envoyé avec succès !",
       "error": "Échec de l'envoi. Veuillez réessayer."
+    },
+    "info": {
+      "title": "Informations de contact"
     },
     "directContact": {
       "title": "Contact direct",

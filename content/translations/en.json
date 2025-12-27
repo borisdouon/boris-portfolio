@@ -123,13 +123,21 @@
     "title": "Let's Work Together",
     "subtitle": "Ready to bring your ideas to life? Let's discuss your project",
     "form": {
+      "title": "Send a Message",
       "name": "Name",
       "email": "Email",
+      "company": "Company (Optional)",
+      "projectType": "Project Type",
+      "budget": "Budget Range",
+      "timeline": "Expected Timeline",
       "message": "Message",
       "send": "Send Message",
       "sending": "Sending...",
       "success": "Message sent successfully!",
       "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information"
     },
     "directContact": {
       "title": "Direct Contact",
