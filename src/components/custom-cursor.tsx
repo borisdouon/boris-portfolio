@@ -18,7 +18,7 @@ export function CustomCursor() {
   const [isHovering, setIsHovering] = useState(false);
   const mouseRef = useRef({ x: 0, y: 0 });
   const cursorPosRef = useRef({ x: 0, y: 0 });
-  const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout>>();
+  const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Update theme detection
   useEffect(() => {

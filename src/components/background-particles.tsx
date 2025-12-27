@@ -35,7 +35,7 @@ interface ColorRGB {
 
 export function BackgroundParticles() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number>(0);
   const particlesRef = useRef<Particle[]>([]);
   const mouseRef = useRef({ x: 0, y: 0 });
   const cursorRef = useRef({ x: 0, y: 0 });
@@ -51,7 +51,7 @@ export function BackgroundParticles() {
     const value = getComputedStyle(document.documentElement)
       .getPropertyValue(variableName)
       .trim();
-    
+
     // Parse HSL format: "0 0% 98%" or "220 70% 50%"
     const hslMatch = value.match(/(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)%\s+(\d+(?:\.\d+)?)%/);
     if (!hslMatch) {
@@ -182,7 +182,7 @@ export function BackgroundParticles() {
       if (distance < CURSOR_AURA_RADIUS && !reducedMotion) {
         const force = (CURSOR_AURA_RADIUS - distance) / CURSOR_AURA_RADIUS;
         const angle = Math.atan2(dy, dx);
-        
+
         // Slight attraction/repulsion
         const attraction = force * 0.5;
         particle.x += Math.cos(angle) * attraction;
@@ -227,11 +227,11 @@ export function BackgroundParticles() {
         particle.y,
         particle.size * 2
       );
-      
+
       const particleColor = isDark
         ? `rgba(${colors.particle.r}, ${colors.particle.g}, ${colors.particle.b}, ${particle.opacity})`
         : `rgba(${colors.particle.r}, ${colors.particle.g}, ${colors.particle.b}, ${particle.opacity * 0.6})`;
-      
+
       gradient.addColorStop(0, particleColor);
       gradient.addColorStop(0.5, particleColor.replace(/[\d.]+\)$/, "0.3)"));
       gradient.addColorStop(1, particleColor.replace(/[\d.]+\)$/, "0)"));
@@ -252,12 +252,12 @@ export function BackgroundParticles() {
         cursor.y,
         CURSOR_AURA_RADIUS
       );
-      
+
       // Increased opacity for better visibility
       const cursorColor = isDark
         ? `rgba(${colors.cursor.r}, ${colors.cursor.g}, ${colors.cursor.b}, 0.25)`
         : `rgba(${colors.cursor.r}, ${colors.cursor.g}, ${colors.cursor.b}, 0.15)`;
-      
+
       gradient.addColorStop(0, cursorColor);
       gradient.addColorStop(0.3, cursorColor.replace(/[\d.]+\)$/, "0.1)"));
       gradient.addColorStop(0.6, cursorColor.replace(/[\d.]+\)$/, "0.05)"));
@@ -309,7 +309,7 @@ export function BackgroundParticles() {
 
       // Reinitialize particles on resize
       initParticles(width, height, reducedMotion);
-      
+
       // Update cursor position to center on resize
       initCursor();
     };
